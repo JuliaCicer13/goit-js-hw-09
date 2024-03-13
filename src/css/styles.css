@@ -23,3 +23,43 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f8f8;
+}
+
+ul.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
+
+.gallery-item {
+  flex: 0 0 calc(33.3333% - 10px);
+  box-sizing: border-box;
+}
+
+.gallery-link {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.gallery-link:hover {
+  transform: scale(1.05);
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
