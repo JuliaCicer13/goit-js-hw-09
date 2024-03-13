@@ -80,7 +80,7 @@ const galleryItems = images.map(image => {
     const linkElement = document.createElement('a');
     linkElement.classList.add('gallery-link');
     linkElement.href = image.original;
-    
+
     const imageElement = document.createElement('img');
     imageElement.classList.add('gallery-image');
     imageElement.src = image.preview;
@@ -94,4 +94,7 @@ const galleryItems = images.map(image => {
   
     return listItem;
 } );
-    
+    const lightbox = new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+});
