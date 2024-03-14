@@ -73,7 +73,7 @@ const images = [
 
 
 const galleryList = document.querySelector('.gallery');
-galleryList.classList.add('gallery');
+
 
 
 const galleryItems = images.map(image => {
@@ -89,7 +89,7 @@ const galleryItems = images.map(image => {
     imageElement.classList.add('gallery-image');
     imageElement.src = image.preview;
     imageElement.alt = image.description;
-    imageElement.setAttribute('data-source', image.original);
+   
     
     linkElement.appendChild(imageElement);
     listItem.appendChild(linkElement);
