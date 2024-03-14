@@ -63,3 +63,114 @@ ul.gallery {
   height: auto;
   border-bottom: 1px solid #ddd;
 }
+/* form */
+
+.box-label {
+  margin-bottom: 8px;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+  margin-bottom: 9px;
+  
+}
+
+.input {
+Width: 345px; 
+Height: 40px;
+  border-color: #808080;
+  border-radius: 4px;
+  border: solid 1px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 16px;
+  font-family: Montserrat;
+}
+
+.input::placeholder {
+  color: #000000;
+}
+
+.input:hover {
+  border-color: #000000;
+}
+
+.box-textarea {
+  margin-bottom: 16px;
+}
+
+.button {
+  width: 86px;
+  height: 40px;
+  border-radius: 8px;
+  border-color: #4e75ff;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  background-color: #4e75ff;
+  color: #f6f6fe;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+}
+
+.button:hover {
+  background-color: #6c8cff;
+}
+
+.item {
+  list-style: none;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2e2f42;
+  margin-bottom: 16px;
+  padding-left: 40px;
+  font-family: Montserrat;
+}
+
+.list {
+  color: #f6f6fe;
+  list-style: none;
+}
+
+.box {
+  border: solid 1px;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  color: #808080;
+  margin-bottom: 8px;
+}
+
+.text {
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+  font-family: Montserrat;
+  width: 29px;
+  height: 24px;
+}
+.box-textarea{
+  margin-top: 8px;
+}
+
+.textarea {
+  Width: 360px ;
+  Height: 80px;
+  border-color: #808080;
+    border-radius: 4px;
+    border: solid 1px;
+}
