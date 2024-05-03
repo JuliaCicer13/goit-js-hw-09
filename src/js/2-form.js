@@ -49,3 +49,8 @@ form.addEventListener("submit", (evt) => {
     console.log("Please fill in all fields.");
   }
 });
+
+const formData = {
+  email: "",
+  message: ""
+};
