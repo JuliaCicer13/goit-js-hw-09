@@ -50,7 +50,5 @@ form.addEventListener("submit", (evt) => {
   }
 });
 
-const formData = {
-  email: "",
-  message: ""
-};
+
+
