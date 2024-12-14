@@ -97,12 +97,12 @@ const galleryItems = images.map(image => {
   return listItem;
   
 });
-    
-galleryItems.forEach(item => {
-  galleryList.appendChild(item);
-});
 
-const lightbox = new SimpleLightbox('.gallery a', {
+galleryList.append(...galleryItems);
+    
+
+ new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
+
